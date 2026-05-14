@@ -1,8 +1,16 @@
+body {background-color: mediumpurple;}
 
-body {background-color: coral;}
+h1 {
+    color: coral; 
+    text-align: center;
+    height: 200px;
+    font-size:5vw;
+}
 
-h1 {color: mediumpurple}
-
-p {color: mediumpurple}
+p {
+    color: coral;
+    text-align: center;
+    font-size: 3vw;
+}
 
 
