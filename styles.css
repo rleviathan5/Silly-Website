@@ -1,16 +1,35 @@
-body {background-color: mediumpurple;}
-
-h1 {
-    color: coral; 
-    text-align: center;
-    height: 200px;
-    font-size:5vw;
+body {
+    background-color: mediumpurple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0
 }
 
-p {
-    color: coral;
-    text-align: center;
-    font-size: 3vw;
+.buttonStyle{
+    background-color: coral;
+    color:black;
+    font-size:60px;
+    padding: 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
+#testButton {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+    padding: 25px 50px;
+    font-size: 32px;
+
+    transition:
+        left 0.1s ease,
+        top 0.1s ease;
+}
 
